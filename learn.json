@@ -1,0 +1,33 @@
+{
+  "port": 3000,
+  "editor": {
+    "mode": null,
+    "agent": null,
+    "version": null
+  },
+  "dirPath": "./.learn",
+  "configPath": "./learn.json",
+  "outputPath": "./.learn/dist",
+  "publicPath": "/preview",
+  "publicUrl": null,
+  "language": "auto",
+  "grading": "incremental",
+  "exercisesPath": "./",
+  "webpackTemplate": null,
+  "disableGrading": false,
+  "disabledActions": [],
+  "actions": [],
+  "entries": {
+    "html": "index.html",
+    "vanillajs": "index.js",
+    "react": "app.jsx",
+    "node": "app.js",
+    "python3": "app.py",
+    "java": "app.java"
+  },
+  "difficulty": "beginner",
+  "duration": 1,
+  "description": "",
+  "title": "My Interactive Tutorial",
+  "slug": "my-interactive-tutorial"
+}
