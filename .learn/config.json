@@ -1,0 +1,124 @@
+{
+    "config": {
+        "port": 3000,
+        "editor": {
+            "mode": "vscode",
+            "agent": "vscode",
+            "version": "1.0.72"
+        },
+        "dirPath": "./.learn",
+        "configPath": "learn.json",
+        "outputPath": ".learn/dist",
+        "publicPath": "/preview",
+        "publicUrl": "http://localhost:3000",
+        "language": "auto",
+        "grading": "incremental",
+        "exercisesPath": ".learn/exercises",
+        "webpackTemplate": null,
+        "disableGrading": false,
+        "disabledActions": [],
+        "actions": [],
+        "entries": {
+            "html": "index.html",
+            "vanillajs": "index.js",
+            "react": "app.jsx",
+            "node": "app.js",
+            "python3": "app.py",
+            "java": "app.java"
+        },
+        "difficulty": "beginner",
+        "duration": 1,
+        "description": "",
+        "title": "My Interactive Tutorial",
+        "slug": "my-interactive-tutorial",
+        "translations": []
+    },
+    "address": "http://localhost",
+    "currentExercise": "01-create-entry-file",
+    "exercises": [
+        {
+            "position": 0,
+            "path": ".learn\\exercises\\00-welcome",
+            "slug": "00-welcome",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": null,
+            "entry": null,
+            "title": "00-welcome",
+            "graded": false,
+            "files": [
+                {
+                    "path": ".learn\\exercises\\00-welcome/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": ".learn\\exercises\\00-welcome/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 1,
+            "path": ".learn\\exercises\\01-create-entry-file",
+            "slug": "01-create-entry-file",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "python3",
+            "entry": null,
+            "title": "01-create-entry-file",
+            "graded": true,
+            "files": [
+                {
+                    "path": ".learn\\exercises\\01-create-entry-file/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": ".learn\\exercises\\01-create-entry-file/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": ".learn\\exercises\\01-create-entry-file/tests.py",
+                    "name": "tests.py",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 2,
+            "path": ".learn\\exercises\\02-import-numpy",
+            "slug": "02-import-numpy",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": null,
+            "entry": null,
+            "title": "02-import-numpy",
+            "graded": false,
+            "files": [
+                {
+                    "path": ".learn\\exercises\\02-import-numpy/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": ".learn\\exercises\\02-import-numpy/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        }
+    ],
+    "session": 7967755566662417000
+}
