@@ -1,4 +1,4 @@
-# `01` Create Entry File
+# `001` Create Entry File
 
 ## 📝 Instructions:
 

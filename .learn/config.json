@@ -3,14 +3,14 @@
         "port": 3000,
         "editor": {
             "mode": "vscode",
-            "agent": "vscode",
+            "agent": "gitpod",
             "version": "1.0.72"
         },
         "dirPath": "./.learn",
         "configPath": "learn.json",
         "outputPath": ".learn/dist",
         "publicPath": "/preview",
-        "publicUrl": "http://localhost:3000",
+        "publicUrl": "https://3000-tommygonzaleza-numpy100-qev9pp59wef.ws-us40.gitpod.io",
         "language": "auto",
         "grading": "incremental",
         "exercisesPath": ".learn/exercises",
@@ -33,29 +33,29 @@
         "slug": "my-interactive-tutorial",
         "translations": []
     },
-    "address": "http://localhost",
-    "currentExercise": "01-create-entry-file",
+    "address": "https://tommygonzaleza-numpy100-qev9pp59wef.ws-us40.gitpod.io",
+    "currentExercise": null,
     "exercises": [
         {
             "position": 0,
-            "path": ".learn\\exercises\\00-welcome",
-            "slug": "00-welcome",
+            "path": ".learn/exercises/000-welcome",
+            "slug": "000-welcome",
             "translations": {
                 "es": "README.es.md",
                 "us": "README.md"
             },
             "language": null,
             "entry": null,
-            "title": "00-welcome",
+            "title": "000-welcome",
             "graded": false,
             "files": [
                 {
-                    "path": ".learn\\exercises\\00-welcome/README.es.md",
+                    "path": ".learn/exercises/000-welcome/README.es.md",
                     "name": "README.es.md",
                     "hidden": true
                 },
                 {
-                    "path": ".learn\\exercises\\00-welcome/README.md",
+                    "path": ".learn/exercises/000-welcome/README.md",
                     "name": "README.md",
                     "hidden": true
                 }
@@ -64,29 +64,34 @@
         },
         {
             "position": 1,
-            "path": ".learn\\exercises\\01-create-entry-file",
-            "slug": "01-create-entry-file",
+            "path": ".learn/exercises/001-create-entry-file",
+            "slug": "001-create-entry-file",
             "translations": {
                 "es": "README.es.md",
                 "us": "README.md"
             },
             "language": "python3",
             "entry": null,
-            "title": "01-create-entry-file",
+            "title": "001-create-entry-file",
             "graded": true,
             "files": [
                 {
-                    "path": ".learn\\exercises\\01-create-entry-file/README.es.md",
+                    "path": ".learn/exercises/001-create-entry-file/README.es.md",
                     "name": "README.es.md",
                     "hidden": true
                 },
                 {
-                    "path": ".learn\\exercises\\01-create-entry-file/README.md",
+                    "path": ".learn/exercises/001-create-entry-file/README.md",
                     "name": "README.md",
                     "hidden": true
                 },
                 {
-                    "path": ".learn\\exercises\\01-create-entry-file/tests.py",
+                    "path": ".learn/exercises/001-create-entry-file/__pycache__",
+                    "name": "__pycache__",
+                    "hidden": true
+                },
+                {
+                    "path": ".learn/exercises/001-create-entry-file/tests.py",
                     "name": "tests.py",
                     "hidden": true
                 }
@@ -95,30 +100,107 @@
         },
         {
             "position": 2,
-            "path": ".learn\\exercises\\02-import-numpy",
-            "slug": "02-import-numpy",
+            "path": ".learn/exercises/002-import-numpy",
+            "slug": "002-import-numpy",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "python3",
+            "entry": null,
+            "title": "002-import-numpy",
+            "graded": true,
+            "files": [
+                {
+                    "path": ".learn/exercises/002-import-numpy/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": ".learn/exercises/002-import-numpy/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": ".learn/exercises/002-import-numpy/__pycache__",
+                    "name": "__pycache__",
+                    "hidden": true
+                },
+                {
+                    "path": ".learn/exercises/002-import-numpy/tests.py",
+                    "name": "tests.py",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 3,
+            "path": ".learn/exercises/003-numpy-version",
+            "slug": "003-numpy-version",
             "translations": {
                 "es": "README.es.md",
                 "us": "README.md"
             },
             "language": null,
             "entry": null,
-            "title": "02-import-numpy",
+            "title": "003-numpy-version",
             "graded": false,
             "files": [
                 {
-                    "path": ".learn\\exercises\\02-import-numpy/README.es.md",
+                    "path": ".learn/exercises/003-numpy-version/README.es.md",
                     "name": "README.es.md",
                     "hidden": true
                 },
                 {
-                    "path": ".learn\\exercises\\02-import-numpy/README.md",
+                    "path": ".learn/exercises/003-numpy-version/README.md",
                     "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": ".learn/exercises/003-numpy-version/__pycache__",
+                    "name": "__pycache__",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 4,
+            "path": ".learn/exercises/004-your-first-vector",
+            "slug": "004-your-first-vector",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "python3",
+            "entry": null,
+            "title": "004-your-first-vector",
+            "graded": true,
+            "files": [
+                {
+                    "path": ".learn/exercises/004-your-first-vector/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": ".learn/exercises/004-your-first-vector/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": ".learn/exercises/004-your-first-vector/__pycache__",
+                    "name": "__pycache__",
+                    "hidden": true
+                },
+                {
+                    "path": ".learn/exercises/004-your-first-vector/tests.py",
+                    "name": "tests.py",
                     "hidden": true
                 }
             ],
             "done": false
         }
     ],
-    "session": 7967755566662417000
+    "session": 1613333710780111600
 }
