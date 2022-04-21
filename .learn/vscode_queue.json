@@ -1,1 +1,1 @@
-[{"name":"initializing","time":250015205.517},{"name":"reset","time":250015237.857},{"name":"configuration_loaded","time":250027332.544}]
+[{"name":"initializing","time":16643177.04},{"name":"configuration_loaded","time":16657492.555},{"name":"start_exercise","time":16769706.94,"data":"003-numpy-version"},{"name":"start_exercise","time":16967733.859,"data":"002-import-numpy"}]
