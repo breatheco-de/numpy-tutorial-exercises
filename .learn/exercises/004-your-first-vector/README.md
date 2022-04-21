@@ -2,7 +2,7 @@
 
 ## 📝 Instructions:
 
-1. Create a null vector of size 10.
+1. Create a null vector of size 10 and print it in the console.
 
 ## 💡Hints:
 
