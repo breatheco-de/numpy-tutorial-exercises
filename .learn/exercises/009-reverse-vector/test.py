@@ -3,7 +3,7 @@ import os
 
 @pytest.mark.it("You have to reverse the vector values")
 def test_output():
-    f = open(os.path.dirname(os.path.abspath('app.py'))+'/app.py')
+    f = open('app.py')
     content = f.read()
     assert content.find("[::-1]") > 0
 

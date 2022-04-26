@@ -3,13 +3,13 @@ import os
 
 @pytest.mark.it("You have to use the itemsize property")
 def test_output():
-    f = open(os.path.dirname(os.path.abspath('app.py'))+'/app.py')
+    f = open('app.py')
     content = f.read()
     assert content.find("itemsize") > 0
 
 @pytest.mark.it("You have to use the itemsize property")
 def test_output():
-    f = open(os.path.dirname(os.path.abspath('app.py'))+'/app.py')
+    f = open('app.py')
     content = f.read()
     assert content.find("size") > 0
 

@@ -3,7 +3,7 @@ import os
 
 @pytest.mark.it("You have to use the reshape() method")
 def test_output():
-    f = open(os.path.dirname(os.path.abspath('app.py'))+'/app.py')
+    f = open('app.py')
     content = f.read()
     assert content.find("reshape(") > 0
 
