@@ -1,4 +1,5 @@
-## 100 numpy exercises
+# Welcome to My Interactive Tutorial
+You have initialized the exercises with grading=`incremental`; meaning that your students will complete one single tutorial with clear and autograded steps from beginning to end.
 
 [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org:/repo/rougier/numpy-100/notebooks/100%20Numpy%20exercises.ipynb)
 
@@ -15,3 +16,8 @@ The keyed text format (`ktx`) is a minimal human readable key-values to store te
 
 This work is licensed under the MIT license.  
 [![DOI](https://zenodo.org/badge/10173/rougier/numpy-100.svg)](https://zenodo.org/badge/latestdoi/10173/rougier/numpy-100)
+
+
+### Variants in Other Languages
+
+ - **Julia**: [100 Julia Exercises](https://github.com/RoyiAvital/Julia100Exercises).

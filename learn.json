@@ -1,0 +1,31 @@
+{
+  "port": 3000,
+  "editor": {
+    "version": "1.0.72"
+  },
+  "dirPath": "./.learn",
+  "configPath": "./learn.json",
+  "outputPath": "./.learn/dist",
+  "publicPath": "/preview",
+  "publicUrl": null,
+  "language": "auto",
+  "grading": "incremental",
+  "exercisesPath": "./",
+  "webpackTemplate": null,
+  "disableGrading": false,
+  "disabledActions": [],
+  "actions": [],
+  "entries": {
+    "html": "index.html",
+    "vanillajs": "index.js",
+    "react": "app.jsx",
+    "node": "app.js",
+    "python3": "app.py",
+    "java": "app.java"
+  },
+  "difficulty": "intermediate",
+  "duration": 10,
+  "description": "",
+  "title": "Numpy Exercises",
+  "slug": "numpy-exercises"
+}
