@@ -1,7 +1,7 @@
 <!-- hide -->
 # Welcome to Numpy exercise tutorial
 
-By <a href="https://twitter.com/alesanchezr">@alesanchezr</a> and <a href="https://github.com/breatheco-de/numpy-tutorial-exercises/graphs/contributors">other contributors</a> at <a href="http://4geeksacademy.com/">4Geeks Academy</a><a href="https://www.4geeksacademy.com"><img height="280" align="right" src="https://github.com/breatheco-de/numpy-tutorial-exercises/blob/main/.learn/assets/numpy-badge.png?raw=true"></a>
+By <a href="https://twitter.com/alesanchezr">@alesanchezr</a> and <a href="https://github.com/breatheco-de/numpy-tutorial-exercises/graphs/contributors">other contributors</a> at <a href="http://4geeksacademy.com/">4Geeks Academy</a><a href="https://www.4geeksacademy.com"><img height="280" align="right" src="https://github.com/breatheco-de/numpy-tutorial-exercises/blob/master/.learn/assets/numpy-badge.png?raw=true"></a>
 <!-- endhide -->
 Numpy (and Pandas) are the #1 libraries for Machine Learning, there is no way you can do anything without it. 
 This interactive tutorial will help you become familiar on it, master the most used functionalities and help you clean up your first datasets.
