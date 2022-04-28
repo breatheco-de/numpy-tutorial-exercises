@@ -79,7 +79,7 @@ Z = np.arange(9).reshape(3, 3)
 print(Z)
 ```
 #### 10. Find indices of non-zero elements from [1,2,0,0,4,0] (★☆☆)
-`hint: np.nonzero`
+`hint: np.nonzero` 
 
 ```python
 nz = np.nonzero([1,2,0,0,4,0])
@@ -155,7 +155,7 @@ print(np.nan - np.nan)
 print(np.nan in set([np.nan]))
 print(0.3 == 3 * 0.1)
 ```
-#### 18. Create a 5x5 matrix with values 1,2,3,4 just below the diagonal (★☆☆)
+#### 18. Create a 5x5 matrix with values 1, 2, 3, 4 just below the diagonal (★☆☆)
 `hint: np.diag`
 
 ```python

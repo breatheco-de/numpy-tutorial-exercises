@@ -23,9 +23,9 @@
     "python3": "app.py",
     "java": "app.java"
   },
-  "difficulty": "beginner",
-  "duration": 1,
+  "difficulty": "intermediate",
+  "duration": 10,
   "description": "",
-  "title": "My Interactive Tutorial",
-  "slug": "my-interactive-tutorial"
+  "title": "Numpy Exercises",
+  "slug": "numpy-exercises"
 }

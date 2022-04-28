@@ -2,7 +2,7 @@
 
 ## 📝 Instrucciones:
 
-1. Crea un vector nulo de tamaño 10.
+1. Crea un vector nulo de tamaño 10 e imprimelo en la consola.
 
 ## 💡 Pistas:
 
