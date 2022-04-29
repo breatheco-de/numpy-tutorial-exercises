@@ -1,31 +1,10 @@
 {
-  "port": 3000,
-  "editor": {
-    "version": "1.0.72"
-  },
-  "dirPath": "./.learn",
-  "configPath": "./learn.json",
-  "outputPath": "./.learn/dist",
-  "publicPath": "/preview",
-  "publicUrl": null,
-  "language": "auto",
-  "grading": "incremental",
-  "exercisesPath": "./",
-  "webpackTemplate": null,
-  "disableGrading": false,
-  "disabledActions": [],
-  "actions": [],
-  "entries": {
-    "html": "index.html",
-    "vanillajs": "index.js",
-    "react": "app.jsx",
-    "node": "app.js",
-    "python3": "app.py",
-    "java": "app.java"
-  },
-  "difficulty": "intermediate",
-  "duration": 10,
-  "description": "",
-  "title": "Numpy Exercises",
-  "slug": "numpy-exercises"
+    "preview": "https://github.com/breatheco-de/numpy-tutorial-exercises/blob/master/.learn/assets/preview.jpeg?raw=true",
+    "repository": "https://github.com/breatheco-de/numpy-tutorial-exercises",
+    "grading": "incremental",
+    "difficulty": "intermediate",
+    "duration": 10,
+    "description": "This interactive tutorial will help you become familiar on it, master the most used functionalities and help you clean up your first datasets",
+    "title": "Numpy Tutorial Exercises",
+    "slug": "numpy-exercises"
 }

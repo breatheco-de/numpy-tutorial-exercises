@@ -1,6 +1,7 @@
 # configuration and readme
 !.gitignore
 !.gitpod.yml
+conftest.py
 !.gitpod.Dockerfile
 !learn.json
 !README.md
@@ -13,6 +14,7 @@
 .learn/dist
 .learn/app.tar.gz
 .learn/config.json
+.learn/vscode_queue.json
 
 .ipynb_checkpoints/
 __pycache__

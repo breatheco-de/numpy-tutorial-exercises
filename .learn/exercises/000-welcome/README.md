@@ -1,24 +1,5 @@
-# `000` Welcome
+# `000` Welcome to Numpy
 
-You can have just a README file and it will be like a page in a book, no code files.
+> This exercises are still in beta
 
-You can also add a `README.[lang].md` file for translations, for example: `README.es.md` for spanish.
-
-## Video compatibility
-
-If you want to include some video introduction for each exercise, add a `intro` property in the markdown frontmatter of the README.md for that particular exercise:
-
-```markdown
----
-intro: "https://www.youtube.com/watch?v=YkgkThdzX-8"
----
-```
-
-You can also add a video solution for each exercise by adding a `tutorial` property on the markdown frontmatter of it's README.md:
-
-```markdown
----
-intro: "https://www.youtube.com/watch?v=YkgkThdzX-8"
-tutorial: "https://www.youtube.com/watch?v=YkgkThdzX-8"
----
-```
+Welcome to Numpy! One of the most important libraries in python and the world of DataScience. During these tutorial you will be learning everything 80% of the things you will be using when being a junior datascientist.
