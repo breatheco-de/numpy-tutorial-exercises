@@ -38,7 +38,7 @@ Estos ejercicios fueron construidos en colaboración. !te necesitamos! Si consig
 1. Instala `learnpack`, el `packet manager` (manejador de paquetes) para tutoriales de aprendizaje y el `compiler plugin` (plugin compilador) de html para `learnpack`. Asegúrate de tener también node.js 12+: 
 
 ```
-$ npm i learnpack -g
+$ npm i @learnpack/learnpack -g
 $ learnpack plugins:install learnpack-python
 ```
 2. Empieza el tutorial/ejercicios corriendo el siguienete comando en el mismo nivel donde se encuentra tu archivo bc.json:
