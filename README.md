@@ -36,7 +36,7 @@ These exercises were built in collaboration, we need you! If you find any bugs o
 1. Install learnpack, the package manager for learning tutorials and the html compiler plugin for learnpack, make sure you also have node.js 12+:
 
 ```
-$ npm i learnpack -g
+$ npm i @learnpack/learnpack -g
 $ learnpack plugins:install learnpack-python
 ```
 
