@@ -4,7 +4,13 @@
     "grading": "incremental",
     "difficulty": "intermediate",
     "duration": 10,
-    "description": "This interactive tutorial will help you become familiar on it, master the most used functionalities and help you clean up your first datasets",
-    "title": "Numpy Tutorial Exercises",
+    "description": {
+        "us": "This interactive tutorial will help you become familiar on it, master the most used functionalities and help you clean up your first datasets",
+        "es": "Este tutorial interactivo te ayudará a familiarizarte con Numpy, dominar las funcionalidades más usadas y a limpiar tus primeros datasets."
+    },
+    "title": {
+        "us": "Numpy Tutorial Exercises",
+        "es": "Tutorial Interactivo de Numpy"
+    },
     "slug": "numpy-exercises"
 }
