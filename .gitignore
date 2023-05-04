@@ -20,5 +20,6 @@ conftest.py
 __pycache__
 venv
 .idea
+.vscode
 Untitled.ipynb
 .pytest_cache
