@@ -16,8 +16,8 @@ def test_declare_variable():
         regex = re.compile(r"np\.__version__")
         assert bool(regex.search(content)) == True
 
-@pytest.mark.it('The output should be the version 1.17.4')
+@pytest.mark.it('The output should be the version 1.24.2')
 def test_print(capsys):
     import app
     captured = capsys.readouterr()
-    assert captured.out == '1.17.4\n'
+    assert captured.out == '1.24.2\n'
