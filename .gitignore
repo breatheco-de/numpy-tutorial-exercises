@@ -5,6 +5,8 @@ conftest.py
 !.gitpod.Dockerfile
 !learn.json
 !README.md
+!.devcontainer
+!.devcontainer/*
 
 # exercises
 !.learn/
