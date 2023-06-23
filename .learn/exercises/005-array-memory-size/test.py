@@ -1,5 +1,5 @@
 import pytest
-import os
+import os,re
 
 @pytest.mark.it("You have to use the itemsize property")
 def test_output():
@@ -7,8 +7,8 @@ def test_output():
     content = f.read()
     assert content.find("itemsize") > 0
 
-@pytest.mark.it("You have to use the itemsize property")
-def test_output():
+@pytest.mark.it("You have to use the size property")
+def test_size_used():
     f = open('app.py')
     content = f.read()
     assert content.find("size") > 0
@@ -17,4 +17,13 @@ def test_output():
 def test_print(capsys):
     import app
     captured = capsys.readouterr()
-    assert captured.out == '80\n'
+    assert '80\n' in captured.out
+
+
+@pytest.mark.it("Do not hardcode the expected output")
+def test_harcoded_output():
+    path = os.path.dirname(os.path.abspath('app.py'))+'/app.py'
+    with open(path, 'r') as content_file:
+        content = content_file.read()
+        regex = re.compile(r"print\s*\((\s*80)")
+        assert bool(regex.search(content)) == False
