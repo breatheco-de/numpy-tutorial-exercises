@@ -13,7 +13,7 @@ def test_declare_variable():
     path = 'app.py'
     with open(path, 'r') as content_file:
         content = content_file.read()
-        regex = re.compile(r"np\.__version__")
+        regex = re.compile(r"np\s*\.\s*__version__")
         assert bool(regex.search(content)) == True
 
 @pytest.mark.it('The output should be the version 1.24.2')
